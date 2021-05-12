@@ -7,7 +7,7 @@ class DefaultFallback(FallbackSkill):
         """
             Registers the fallback handler
         """
-        self.register_fallback(self.handle_fallback, 10)
+        self.register_fallback(self.handle_fallback, 0)
         # Any other initialize code you like can be placed here
     def handle_fallback(self, message):
 
